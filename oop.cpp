@@ -15,7 +15,12 @@ public:
 
 };
 
-int main()
-{
+int main(){
+    mahasiswa mhsl;
+    mhsl.nim = 2021;
+    mhsl.nama = "Winter";
+    mhsl.nilai = 87.8;
+
+    mhsl.printData ();
     
 }
